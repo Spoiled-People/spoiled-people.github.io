@@ -1,0 +1,50 @@
+/* --------------------------------------------------
+
+Custom
+
+----------------------------------------------------- */
+body {
+	margin: 2em;
+	padding: 10px 0;
+	background: #fff;
+	color: #1e5c6b;
+	text-align: center;
+}
+#page {
+	margin:auto;
+	text-align: left;
+	max-width: 40em;
+}
+#pageIntro, #pageFooter , #pageContent { padding: 0.5em 0 1.5em 0; }
+
+#pageIntro, #footerFinal{
+	text-align: center;
+}
+#pageFooter {
+	border-top: 1px dotted #777;
+	font-size: 0.8em;
+	color: #1e5c6b;
+}
+a {
+  background: #f8f1ee;
+  color: inherit;
+}
+a:visited {
+  color: #585858;
+}
+a:focus, a:hover{
+  background: #fca481;
+  color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-weight:bold; 
+	color: #ee5e8f;
+	font-family: 'Salsa', serif;
+}
+h1 {	font-size:2.3em;	}
+h2 {	font-size:2em;	}
+h3 {	font-size:1.8em;	}
+h4 {	font-size:1.5em;	}
+h5 {	font-size:1.3em;	}
+h6 {	font-size:1em;	}
