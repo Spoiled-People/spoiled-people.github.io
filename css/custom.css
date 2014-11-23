@@ -7,7 +7,7 @@ body {
 	margin: 2em;
 	padding: 10px 0;
 	background: #fff;
-	color: #1e5c6b;
+	color: #485670;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -44,12 +44,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Salsa', serif;
 }
 
-h1 {	font-size:2.3em;	}
-h2 {	font-size:2em;	}
-h3 {	font-size:1.8em;	}
-h4 {	font-size:1.5em;	}
-h5 {	font-size:1.3em;	}
-h6 {	font-size:1em;	}
+h1 {	font-size:2.5em;	}
+h2 {	font-size:2.3em;	color:#ee5e8f;	}
+h3 {	font-size:1.8em;	color:#f36527;	}
+h4 {	font-size:1.5em;	color:#1d9509;	}
+h5 {	font-size:1.3em;	color:#756b61;	}
+h6 {	font-size:1em;		color:#1e5c6b;	}
 
 
 #pageFooter h1, #pageFooter h2, #pageFooter h3, #pageFooter h4, #pageFooter h5, #pageFooter h6 { font-family: 'Ubuntu', sans-serif; }

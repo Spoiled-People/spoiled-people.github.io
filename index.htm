@@ -37,10 +37,23 @@
 	</div><!-- /pageHeader -->
 	 
 	<div id="pageContent">
+		<nav><p>Sommaire&nbsp;:</p>
+			<ul>
+				<li><a href="#titre-EnDeuxMots">En deux mots</a></li>
+				<li><a href="#titre-Lancement">Le lancement</a></li>
+				<li><a href="#titre-CharteQualite">Charte de qualité</a></li>
+				<li><a href="#titre-Conception">Conception</a></li>
+				<li><a href="#titre-Licence">Licence</a></li>
+			</ul>
+		</nav>
 		
-		<h2>Présentation</h2>
-	
-		<p><span lang="en">Spoiled&nbsp;People</span> est un projet d'application accompagnée d'un site web pour <strong>gérer des listes de cadeaux</strong> développé via <a href="https://github.com/Spoiled-People">GitHub</a>.</p>
+		<h2 id="titre-EnDeuxMots">En deux mots</h2>
+		
+		<p><span lang="en">Spoiled&nbsp;People</span> permet de <strong>gérer des listes de cadeaux</strong>, pour soi ou pour les autres. <span lang="en">Spoiled&nbsp;People</span> est géré via une <strong>application</strong>, un <strong>site web</strong> et un <strong>bookmarklet</strong>.</p>
+		<p><span lang="en">Spoiled&nbsp;People</span> est un projet communautaire développé via <a href="https://github.com/Spoiled-People">GitHub</a>.</p>
+		
+		<h2 id="titre-Lancement">Le lancement</h2>
+		
 		<p><span lang="en">Spoiled&nbsp;People</span> est un projet initié via un <a href="http://articles.nissone.com/2013/11/projet-liste-cadeaux-github/">billet de blog</a> et la présentation ci-dessous&nbsp;:</p>
 		
 		<blockquote>
@@ -51,12 +64,64 @@
 		
 		<p>L'idée de le créer via GitHub vient d'une conversation sur Twitter et en particulier d'<a href="https://twitter.com/L_Demontiers/status/395076897429676032">une suggestion de L_Demontiers</a>.</p>
 		
-		<h2>Description</h2>
+		<h2 id="titre-CharteQualite">Charte de qualité</h2>
 		
-		<p><span lang="en">Spoiled&nbsp;People</span> permet de <strong>gérer des listes de cadeaux</strong>, pour soi ou pour les autres. <span lang="en">Spoiled&nbsp;People</span> est géré via une <strong>application</strong>, un <strong>site web</strong> et un <strong>bookmarklet</strong>.</p>
+		<h3 id="titre-GrandsPrincipes">Les grands principes</h3>
+		
+		<h4 id="titre-DemanderMinimum">Demander le minimum</h4>
+		<p>Le but est de chercher la simplicité d'exécution. Seuls les champs vraiment indispensables doivent être requis. Les champs peuvent être préremplis avec des données "neutres" (Exemple&nbsp;: pour une liste, utiliser "Liste 1" doit être possible).</p>
+		
+		<h4 id="titre-RespectUtilisateur">Respect de l'utilisateur</h4>
+		<p>L'utilisateur doit toujours avoir la main sur ses données. Cela signifie&nbsp;:</p>
+		<ul>
+			<li>qu'il peut les exporter</li>
+			<li>qu'il peut les faire supprimer</li>
+		</ul>
+		
+		<p>Les données de l'utilisateurs ne doivent pas être utilisées en dehors du fonctionnement de Spoiled People. Cela signifie&nbsp;:</p>
+		<ul>
+			<li>qu'elles ne sont pas cédées à des tiers</li>
+			<li>qu'elles ne servent pas à envoyer des e-mails non demandés</li>
+		</ul>
+
+		<h3 id="titre-Referentiels">Les référentiels</h3>
+
+		<p>Le site fait l'objet d'une déclaration Opquast et se référe aux référentiels&nbsp;:</p>
+		<ul>
+			<li><a href="https://checklists.opquast.com/fr/oqs-v2">Les bonnes pratiques du web</a></li>
+			<li><a href="https://checklists.opquast.com/fr/accessibility-first-step">First Step (Premier pas vers WCAG 2.0&nbsp;: erreurs)</a></li>
+			<li><a href="https://checklists.opquast.com/webperf">webperf</a></li>
+		</ul>
+		
+		<h2 id="titre-Conception">Conception</h2>
+		
+		<p>Pour voir en détail la conception de <span lang="en">Spoiled&nbsp;People</span> voir le dépôt «&nbsp;<a href="https://github.com/Spoiled-People/design/tree/master/functionnal-conception"><span lang="en">design/functionnal-conception</span></a>&nbsp;»
+		
+		<h2 id="titre-Licence">Licence</h2>
+		
+		<p><strong><a href="http://www.mozilla.org/MPL/2.0/">Mozilla Public License version 2.0 (en)</a></strong></p>
+		<p>Pour toute question voir&nbsp;: <a href="http://www.mozilla.org/MPL/2.0/FAQ.html">MPL 2.0 FAQ</a></p>
+		<p>Cette licence implique notamment, pour le cas présent&nbsp;:</p>
+		<ul>
+			<li>
+				qu'un fichier « license » soit présent dans chaque répertoire indiquant&nbsp;:
+				<blockquote>This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <a href="http://www.mozilla.org/MPL/2.0/">http://mozilla.org/MPL/2.0/</a>.</blockquote>
+			</li>
+		</ul>
+		
+		<p>TODO&nbsp;: Rajouter une phrase pour que les auteurs soient cités (page membres de Spoiled People&nbsp;?)</p>
+		
+		<h3 id="titre-PourquoiMPL">Pourquoi MPL 2.0</h3>
+		<p>Je voulais une licence qui&nbsp;:</p>
+		<ul>
+			<li>permette de <strong>modifier la licence pour des nouvelles parties</strong>.</li>
+			<li>impose de <strong>citer les auteurs/la source</strong> et de garder la <strong>source accessible</strong>.</li>
+		</ul>
+		
+		<p>J'ai pensé qu'il était bon d'<strong>interdire une garantie</strong> pour protéger les auteurs. Ça ne me dérange pas qu'une <strong>utilisation commerciale</strong> soit faite (tant que la <strong>source est dispo</strong> et que les <strong>auteurs originaux sont cités</strong>) et encore moins une utilisation privée&nbsp;!</p>
+		<p>-- Delphine M.</p>
 	
 	</div><!-- /pageContent -->
-	
 	
 	<div id="pageFooter">
 		<div id="footerFinal">
