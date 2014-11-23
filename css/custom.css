@@ -9,15 +9,16 @@ body {
 	background: #fff;
 	color: #1e5c6b;
 	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
 }
 #page {
 	margin:auto;
 	text-align: left;
 	max-width: 40em;
 }
-#pageIntro, #pageFooter , #pageContent { padding: 0.5em 0 1.5em 0; }
+#pageHeader, #pageFooter , #pageContent { padding: 0.5em 0 1.5em 0; }
 
-#pageIntro, #footerFinal{
+#pageHeader, #footerFinal{
 	text-align: center;
 }
 #pageFooter {
@@ -42,9 +43,19 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ee5e8f;
 	font-family: 'Salsa', serif;
 }
+
 h1 {	font-size:2.3em;	}
 h2 {	font-size:2em;	}
 h3 {	font-size:1.8em;	}
 h4 {	font-size:1.5em;	}
 h5 {	font-size:1.3em;	}
 h6 {	font-size:1em;	}
+
+
+#pageFooter h1, #pageFooter h2, #pageFooter h3, #pageFooter h4, #pageFooter h5, #pageFooter h6 { font-family: 'Ubuntu', sans-serif; }
+#pageFooter h1 {	font-size:2em;	}
+#pageFooter h2 {	font-size:1.8em;	}
+#pageFooter h3 {	font-size:1.6em;	}
+#pageFooter h4 {	font-size:1.4em;	}
+#pageFooter h5 {	font-size:1.2em;	}
+#pageFooter h6 {	font-size:1em;	}
