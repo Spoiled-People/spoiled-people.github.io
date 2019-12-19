@@ -10,6 +10,7 @@ body {
 	color: #485670;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
+	font-size:100%;
 }
 #page {
 	margin:auto;
@@ -51,6 +52,10 @@ h4 {	font-size:1.5em;	color:#1d9509;	}
 h5 {	font-size:1.3em;	color:#756b61;	}
 h6 {	font-size:1em;		color:#1e5c6b;	}
 
+.incise {
+	font-size:1.2em;
+	font-weight:bold;
+}
 
 #pageFooter h1, #pageFooter h2, #pageFooter h3, #pageFooter h4, #pageFooter h5, #pageFooter h6 { font-family: 'Ubuntu', sans-serif; }
 #pageFooter h1 {	font-size:2em;	}
